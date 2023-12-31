@@ -3,11 +3,11 @@
   become: yes
   tasks:
   - name: install httpd
-    ansible.builtin.packages
+    ansible.builtin.package:
     - name: httpd
       state: installed
 
   - name: start http
-    ansible.builtin.services
+    ansible.builtin.service:
     - name: start http
       state: started
