@@ -1,0 +1,17 @@
+- hosts: all
+  become: yes
+  vars:
+    - weblogic: true
+    - websphere: false
+  tasks:
+    - name: Install weblogic
+      yum:
+        name: weblogic
+        state: present
+      when: weblogic
+
+    - name: Install websphere
+      yum:
+        name: websphere
+        state: present
+      when: websphere
