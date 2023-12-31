@@ -1,5 +1,6 @@
 - name: ngnix playbook
   hosts: web
+  become: yes
   tasks:
   - name: ngnix install
     ansible.builtin.package:
