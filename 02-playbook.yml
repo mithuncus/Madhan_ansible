@@ -1,11 +1,11 @@
 - name: ngnix playbook
   hosts: web
   tasks:
-  - name: ngnix install n enable and start
+  - name: ngnix install
     ansible.builtin.package:
-    name: nginx
-    state: present
-  - name: Start service httpd, if not started
+      name: nginx
+      state: present
+  - name: Start service ngnix, if not started
     ansible.builtin.service:
-    name: nginx
-    state: started
+      name: nginx
+      state: started
