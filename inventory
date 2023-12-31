@@ -10,6 +10,8 @@
 [payment]
 54.226.41.228
 54.226.41.228
+[shipping]
+192.168.131.1
 [roboshop:children]
 web
 cart
