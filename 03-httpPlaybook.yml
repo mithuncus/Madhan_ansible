@@ -4,7 +4,7 @@
   tasks:
   - name: install httpd
     ansible.builtin.packages
-    - name: install httpd
+    - name: httpd
       state: installed
 
   - name: start http
