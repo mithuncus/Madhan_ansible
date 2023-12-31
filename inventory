@@ -1,12 +1,18 @@
 [web]
 54.226.41.221
-
+54.226.41.222
 [catalogue]
-
+54.226.41.223
+54.226.41.224
+[cart]
+54.226.41.225
+54.226.41.226
+[payment]
+54.226.41.228
+54.226.41.228
 [roboshop:children]
 web
 cart
 catalogue
 payment
 
-## inventory means list of hosts
