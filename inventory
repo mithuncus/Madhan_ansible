@@ -1,0 +1,12 @@
+[web]
+54.226.41.221
+
+[catalogue]
+
+[roboshop:children]
+web
+cart
+catalogue
+payment
+
+## inventory means list of hosts
