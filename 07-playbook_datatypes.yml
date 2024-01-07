@@ -26,5 +26,5 @@
       msg: "Experience: {{Experience}}"
   
   - name: print boolen
-    ansible.bulitin.debug:
+    ansible.builtin.debug:
       msg: "is he Trainer: {{Trainer}}"
