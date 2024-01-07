@@ -1,0 +1,12 @@
+- name: loops
+  hosts: localhost
+  tasks:
+  - name: print person names
+    ansible.builtin.debug:
+      msg: "Hello {{item}}" #item is default keyworkd
+    loop:
+    - Suresh
+    - Ramesh
+    - Robert
+    - Raheam
+    
