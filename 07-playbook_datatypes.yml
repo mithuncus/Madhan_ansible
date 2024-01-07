@@ -27,4 +27,4 @@
   
   - name: print boolen
     ansible.bulitin.debug:
-      msg: "is he trainer: {{Trainer}}"
+      msg: "is he Trainer: {{Trainer}}"
