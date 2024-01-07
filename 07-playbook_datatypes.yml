@@ -17,14 +17,14 @@
     ansible.builtin.debug:
       msg: "name: {{name}}"
 
-  -name: print list
-  ansible.builtin.debug:
+  - name: print list
+    ansible.builtin.debug:
     msg: "Skills: {{Skills}}"
 
-  -name: print map
-  ansible.builtin.debug:
+  - name: print map
+    ansible.builtin.debug:
     msg: "Experience: {{Experience}}"
   
-  -name: print boolen
-  ansible.bulitin.debug:
+  - name: print boolen
+    ansible.bulitin.debug:
     msg: "is he trainer:{{Trainer}}"
